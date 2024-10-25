@@ -48,7 +48,7 @@
 
 body {
     margin: 0;
-    overflow: hidden;
+    /* Remove overflow hidden to allow scrolling */
 }
 
 .container {
