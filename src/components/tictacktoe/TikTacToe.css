@@ -48,7 +48,7 @@
 
 body {
     margin: 0;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .container {
@@ -56,7 +56,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; 
+    height: 100vh;
     text-align: center;
 }
 
@@ -102,10 +102,12 @@ body {
     display: flex;
     margin: auto;
 }
-.boxes img{
+
+.boxes img {
     margin: 43px 43px;
 }
-.title img{
+
+.title img {
     height: 40px;
     width: 40px;
 }
@@ -115,23 +117,23 @@ body {
     .title {
         font-size: 40px; /* Smaller font size for the title */
     }
-    
+
     .reset {
         width: 180px; /* Slightly smaller button */
         height: 70px; /* Slightly smaller height */
         font-size: 22px; /* Smaller font size */
     }
-    
+
     .boxes {
         height: 130px; /* Adjust box height */
         width: 130px; /* Adjust box width */
     }
-    
+
     .board {
         height: 400px; /* Reduce board height */
         width: 90vw; /* Set width to viewport width */
     }
-    
+
     .title img {
         height: 35px; /* Smaller logo/image size */
         width: 35px;
@@ -148,13 +150,14 @@ body {
         width: 150px; /* Even smaller button */
         height: 60px; /* Even smaller height */
         font-size: 20px; /* Smaller font size */
+        margin: 20px auto; /* Center the button */
     }
 
     .boxes {
         height: 100px; /* Further adjust box height */
         width: 100px; /* Further adjust box width */
     }
-    
+
     .board {
         height: 300px; /* Reduce board height further */
         width: 90vw; /* Maintain responsiveness */
@@ -167,5 +170,12 @@ body {
     .title img {
         height: 30px; /* Smaller logo/image size */
         width: 30px;
+    }
+
+    /* Centering elements on mobile */
+    .container {
+        justify-content: center; /* Center items vertically */
+        align-items: center; /* Center items horizontally */
+        padding: 10px; /* Add some padding */
     }
 }
