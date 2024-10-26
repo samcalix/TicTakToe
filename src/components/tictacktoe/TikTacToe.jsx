@@ -24,8 +24,11 @@ const TikTacToe = () => {
     let boxArray = [box1,box2,box3,box4,box5,box6,box7,box8,box9]
     
     const toggle = (e, num) => {
-        if (lock) {
-            return onabort;
+        // if (lock) {
+        //     return onabort;
+        // }
+        if (lock || data[num] !== "") {
+            return;
         }
         if(count%2===0)
         {
